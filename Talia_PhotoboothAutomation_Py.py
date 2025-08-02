@@ -11,7 +11,7 @@ from googleapiclient.discovery import build
 from googleapiclient.http import MediaFileUpload
 
 # 1. DRIVE AUTHENTICATION
-SCOPES = ['https://www.googleapis.com/auth/drive.file']
+SCOPES = ['https://www.googleapis.com/auth/drive.file'] #ini maksudnya scope apa ya?
 TOKEN_FILE = 'token.json'
 CREDENTIALS_FILE = 'credentials.json'
 
@@ -118,5 +118,5 @@ def main(watch_dir, track_log, drive_folder_id=None):
 if __name__ == '__main__':
     WATCH_FOLDER = '/path/to/DCIM/Camera'   # adjust this path
     UPLOAD_LOG = 'uploaded_photos.json'
-    DRIVE_FOLDER_ID = None  # or set your Google Drive folder ID
+    DRIVE_FOLDER_ID = None  # ini masukin folder id dimananya gdrive ya?
     main(WATCH_FOLDER, UPLOAD_LOG, DRIVE_FOLDER_ID)
