@@ -116,7 +116,7 @@ def main(watch_dir, track_log, drive_folder_id=None):
 
 
 if __name__ == '__main__':
-    WATCH_FOLDER = '/path/to/DCIM/Camera'   # adjust this path
+    WATCH_FOLDER = 'C:\Users\satri\Pictures\InternetC:\Users\satri\Pictures\Internet'   # adjust this path
     UPLOAD_LOG = 'uploaded_photos.json'
     DRIVE_FOLDER_ID = 'https://drive.google.com/drive/folders/1XSXxYx5EbwSPYP0EkqhlQvRIhHIjFbDU?usp=sharing'  # ini masukin folder id dimananya gdrive ya?
     main(WATCH_FOLDER, UPLOAD_LOG, DRIVE_FOLDER_ID)
