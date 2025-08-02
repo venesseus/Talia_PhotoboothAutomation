@@ -108,7 +108,7 @@ class PhotoHandler(FileSystemEventHandler):
             self.uploaded.add(filepath.name)
             self._save_uploaded()
         except Exception as e:
-            print(f"❌ Error uploading {filepath.name}: {e}")
+            print(f"❌ Error uploading {filepath.name}: {e}") #cek kalo file error di upload
 
 
 # 4. MAIN WATCHER
