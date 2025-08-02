@@ -133,5 +133,5 @@ def main(watch_dir, track_log, drive_folder_id=None):
 if __name__ == '__main__':
     WATCH_FOLDER = r"C:\Users\satri\Pictures\Internet"
     UPLOAD_LOG = 'uploaded_photos.json'
-    DRIVE_FOLDER_ID = '1XSXxYx5EbwSPYP0EkqhlQvRIhHIjFbDU'  # Just the ID part!
+    DRIVE_FOLDER_ID = '1XSXxYx5EbwSPYP0EkqhlQvRIhHIjFbDU'  # Bagian ID aja
     main(WATCH_FOLDER, UPLOAD_LOG, DRIVE_FOLDER_ID)
